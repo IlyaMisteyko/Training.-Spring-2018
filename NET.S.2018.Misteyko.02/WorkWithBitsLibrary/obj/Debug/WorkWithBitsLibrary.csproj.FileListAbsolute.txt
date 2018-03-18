@@ -1,0 +1,11 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\bin\Debug\WorkWithBitsLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\bin\Debug\WorkWithBitsLibrary.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.pdb
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\bin\Debug\WorkWithBitsLibrary.dll
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\bin\Debug\WorkWithBitsLibrary.pdb
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.dll
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\WorkWithBitsLibrary\obj\Debug\WorkWithBitsLibrary.pdb

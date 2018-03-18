@@ -1,0 +1,14 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\FindNumberLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\FindNumberLibrary.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\LibraryOfSorts.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\LibraryOfSorts.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.pdb
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\FindNumberLibrary.dll
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\FindNumberLibrary.pdb
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\bin\Debug\LibraryOfSorts.pdb
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.dll
+C:\Users\user\Downloads\NET.S.2018.Misteyko.02\FindNumberLibrary\obj\Debug\FindNumberLibrary.pdb

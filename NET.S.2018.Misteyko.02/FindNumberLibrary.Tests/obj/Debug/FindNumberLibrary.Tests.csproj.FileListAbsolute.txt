@@ -1,0 +1,12 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\FindNumberLibrary.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\FindNumberLibrary.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\FindNumberLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\nunit.framework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\LibraryOfSorts.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\FindNumberLibrary.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\nunit.framework.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\nunit.framework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\bin\Debug\LibraryOfSorts.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\obj\Debug\FindNumberLibrary.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\obj\Debug\FindNumberLibrary.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindNumberLibrary.Tests\obj\Debug\FindNumberLibrary.Tests.pdb
