@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts\bin\Debug\LibraryOfSorts.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts\bin\Debug\LibraryOfSorts.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts\obj\Debug\LibraryOfSorts.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts\obj\Debug\LibraryOfSorts.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts\obj\Debug\LibraryOfSorts.pdb

@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters\bin\Debug\LibraryOfFilters.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters\bin\Debug\LibraryOfFilters.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters\obj\Debug\LibraryOfFilters.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters\obj\Debug\LibraryOfFilters.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters\obj\Debug\LibraryOfFilters.pdb

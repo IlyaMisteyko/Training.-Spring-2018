@@ -1,0 +1,14 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\LibraryOfFilters.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\LibraryOfFilters.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\LibraryOfFilters.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\LibraryOfFilters.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\obj\Debug\LibraryOfFilters.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\obj\Debug\LibraryOfFilters.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfFilters.Tests\obj\Debug\LibraryOfFilters.Tests.pdb

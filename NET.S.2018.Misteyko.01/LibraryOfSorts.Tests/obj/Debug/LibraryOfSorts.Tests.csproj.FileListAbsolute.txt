@@ -1,0 +1,14 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\LibraryOfSorts.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\LibraryOfSorts.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\LibraryOfSorts.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\LibraryOfSorts.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\obj\Debug\LibraryOfSorts.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\obj\Debug\LibraryOfSorts.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.01\LibraryOfSorts.Tests\obj\Debug\LibraryOfSorts.Tests.pdb

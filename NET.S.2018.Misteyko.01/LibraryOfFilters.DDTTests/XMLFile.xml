@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <testArr>7, 1, 2, 3, 4, 5, 6, 7, 68, 69, 70, 15, 17</testArr>
+    <expected>7, 7, 70, 17</expected>
+    <digit>7</digit>
+  </TestCase>
+  <TestCase>
+    <testArr>-7, 1, -2, 3, -4, 5, 6, 7, -68, 69, -70, 15, 17</testArr>
+    <expected>-7, 7, -70, 17</expected>
+    <digit>7</digit>
+  </TestCase>
+  <TestCase>
+    <testArr>-7, 1, -2, 3, 5, 6, 7, -68, 69, -70, 15, 17</testArr>
+    <expected></expected>
+    <digit>4</digit>
+  </TestCase>
+</TestCases>
