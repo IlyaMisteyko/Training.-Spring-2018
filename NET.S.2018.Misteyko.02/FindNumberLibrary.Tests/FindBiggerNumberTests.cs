@@ -23,7 +23,8 @@ namespace FindNumberLibrary.Tests
         [TestCase(20, -1)]
         public void FindNextBiggerNumberTest(int num, int expect)
         {
-            num = FindBiggerNumber.FindNextBiggerNumber(num);
+            int timeForMethod = 0;
+            num = FindBiggerNumber.FindNextBiggerNumber(num, out timeForMethod);
             Assert.AreEqual(expect, num);
         }
     }

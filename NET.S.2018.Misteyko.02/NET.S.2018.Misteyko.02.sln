@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithBitsLibrary", "Work
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithBitsLibrary.Tests", "WorkWithBitsLibrary.Tests\WorkWithBitsLibrary.Tests.csproj", "{F14DD253-C92D-45B2-B49A-BC0664663329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRootLibrary", "FindRootLibrary\FindRootLibrary.csproj", "{90E1420C-6CDB-4C8C-992B-1250ED9BBF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRootLibrary.Tests", "FindRootLibrary.Tests\FindRootLibrary.Tests.csproj", "{600CB9DC-57B2-4355-AACA-1133B8C178CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{F14DD253-C92D-45B2-B49A-BC0664663329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14DD253-C92D-45B2-B49A-BC0664663329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14DD253-C92D-45B2-B49A-BC0664663329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E1420C-6CDB-4C8C-992B-1250ED9BBF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E1420C-6CDB-4C8C-992B-1250ED9BBF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E1420C-6CDB-4C8C-992B-1250ED9BBF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E1420C-6CDB-4C8C-992B-1250ED9BBF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600CB9DC-57B2-4355-AACA-1133B8C178CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600CB9DC-57B2-4355-AACA-1133B8C178CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600CB9DC-57B2-4355-AACA-1133B8C178CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600CB9DC-57B2-4355-AACA-1133B8C178CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

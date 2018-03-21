@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,61 +17,68 @@ namespace FindNumberLibrary
         /// Finds the next bigger number.
         /// </summary>
         /// <param name="positiveNum">The positive number.</param>
+        /// <param name="finishTime">The time of working of method.</param>
         /// <returns>The next bigger number contains all digits of current number</returns>
-        public static int FindNextBiggerNumber(int positiveNum)
+        public static int FindNextBiggerNumber(int positiveNum, out int finishTime)
         {
+            Stopwatch startTime = new Stopwatch();
+            startTime.Start();
+
             if (positiveNum == 0)
             {
+                startTime.Stop();
+                finishTime = TimeForMethod(startTime);
                 return -1;
             }
 
             int copy = positiveNum;
             int[] numInArr = new int[GetSizeOfArr(copy)];
 
-            ConvertNumToArr(numInArr, copy);
-
             if (numInArr.Length == 1)
             {
+                startTime.Stop();
+                finishTime = TimeForMethod(startTime);
                 return -1;
             }
-            else if (numInArr.Length == 2)
+
+            ConvertNumToArr(numInArr, copy);
+
+            if (numInArr.Length == 2 && numInArr[0] < numInArr[numInArr.Length - 1])
             {
-                if (numInArr[0] < numInArr[numInArr.Length - 1])
+                    Swap(ref numInArr[0], ref numInArr[numInArr.Length - 1]);
+                startTime.Stop();
+                finishTime = TimeForMethod(startTime);
+                return ConvertArrToNum(numInArr);
+            }
+
+            for (int i = 0; numInArr.Length - 2 - i >= 0; i++)
+            {
+                if (numInArr[numInArr.Length - 1 - i] > numInArr[numInArr.Length - 2 - i])
                 {
-                    ChangeToBiggerNumber(numInArr, 0);
+                    Swap(ref numInArr[numInArr.Length - 1 - i], ref numInArr[numInArr.Length - 2 - i]);
+                    Sorts.SortHalfOfArrayByQuickSort(numInArr, numInArr.Length - 1 - i, numInArr.Length - 1);
+                    startTime.Stop();
+                    finishTime = TimeForMethod(startTime);
                     return ConvertArrToNum(numInArr);
                 }
-                else
-                {
-                    return -1;
-                }
             }
-            else 
-            {
-                for (int i = 0; ; i++)
-                {
-                    if (numInArr[numInArr.Length - 1 - i] > numInArr[numInArr.Length - 2 - i])
-                    {
-                        ChangeToBiggerNumber(numInArr, i);
-                        Sorts.SortHalfOfArrayByQuickSort(numInArr, numInArr.Length - 1 - i, numInArr.Length - 1);
-                        return ConvertArrToNum(numInArr);
-                    }
-                }
 
-                return -1;
-            }
+            startTime.Stop();
+            finishTime = TimeForMethod(startTime);
+
+            return -1;
         }
 
         /// <summary>
-        /// Changes elements in array.
+        /// Swaps two numbers.
         /// </summary>
-        /// <param name="numInArr">Number converting in array.</param>
-        /// <param name="i">Iterator.</param>
-        private static void ChangeToBiggerNumber(int[] numInArr, int i)
+        /// <param name="a">First number.</param>
+        /// <param name="b">Second number.</param>
+        private static void Swap(ref int a, ref int b)
         {
-            int temp = numInArr[numInArr.Length - 1 - i];
-            numInArr[numInArr.Length - 1 - i] = numInArr[numInArr.Length - 2 - i];
-            numInArr[numInArr.Length - 2 - i] = temp;
+            int temp = a;
+            a = b;
+            b = temp;
         }
 
         /// <summary>
@@ -98,15 +106,10 @@ namespace FindNumberLibrary
         /// <param name="num">The number.</param>
         private static void ConvertNumToArr(int[] numInArr, int num)
         {
-            for (int i = 0; ; i++)
+            for (int i = 0; num != 0; i++)
             {
                 numInArr[numInArr.Length - 1 - i] = num % 10;
                 num /= 10;
-
-                if (num == 0)
-                {
-                    break;
-                }
             }
         }
 
@@ -117,14 +120,25 @@ namespace FindNumberLibrary
         /// <returns>The number.</returns>
         private static int ConvertArrToNum(int[] numInArr)
         {
-            int num = 0;
+            int num = numInArr[0];
 
-            for (int i = 0, j = numInArr.Length - 1; i < numInArr.Length ; i++, j--)
+            for (int i = 1; i < numInArr.Length ; i++)
             {
-                num += numInArr[i] * (int)Math.Pow(10, j);
+                num *= 10;
+                num += numInArr[i];
             }
 
             return num;
+        }
+        /// <summary>
+        /// Check time of working of method.
+        /// </summary>
+        /// <param name="startTime">Start time of method.</param>
+        /// <returns>Finish time.</returns>
+        private static int TimeForMethod(Stopwatch startTime)
+        {
+            TimeSpan finishTime = startTime.Elapsed;
+            return finishTime.Milliseconds;
         }
     }
 }

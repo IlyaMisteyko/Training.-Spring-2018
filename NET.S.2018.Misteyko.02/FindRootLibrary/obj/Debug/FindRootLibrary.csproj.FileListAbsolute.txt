@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary\bin\Debug\FindRootLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary\bin\Debug\FindRootLibrary.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary\obj\Debug\FindRootLibrary.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary\obj\Debug\FindRootLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary\obj\Debug\FindRootLibrary.pdb
