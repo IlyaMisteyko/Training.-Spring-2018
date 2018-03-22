@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\WorkWithDoubleLib\bin\Debug\WorkWithDoubleLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\WorkWithDoubleLib\bin\Debug\WorkWithDoubleLib.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\WorkWithDoubleLib\obj\Debug\WorkWithDoubleLib.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\WorkWithDoubleLib\obj\Debug\WorkWithDoubleLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\WorkWithDoubleLib\obj\Debug\WorkWithDoubleLib.pdb

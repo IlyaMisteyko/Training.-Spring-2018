@@ -1,0 +1,10 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\AlgorithmsOfFindingGCD.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\AlgorithmsOfFindingGCD.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\AlgorithmsOfFindingGCD.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\nunit.framework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\AlgorithmsOfFindingGCD.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\nunit.framework.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\bin\Debug\nunit.framework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\obj\Debug\AlgorithmsOfFindingGCD.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\obj\Debug\AlgorithmsOfFindingGCD.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD.Tests\obj\Debug\AlgorithmsOfFindingGCD.Tests.pdb

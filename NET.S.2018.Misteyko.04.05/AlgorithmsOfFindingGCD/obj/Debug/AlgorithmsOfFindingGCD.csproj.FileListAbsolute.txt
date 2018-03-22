@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD\bin\Debug\AlgorithmsOfFindingGCD.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD\bin\Debug\AlgorithmsOfFindingGCD.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD\obj\Debug\AlgorithmsOfFindingGCD.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD\obj\Debug\AlgorithmsOfFindingGCD.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\AlgorithmsOfFindingGCD\obj\Debug\AlgorithmsOfFindingGCD.pdb
