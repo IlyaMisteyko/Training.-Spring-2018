@@ -7,35 +7,41 @@ namespace WorkWithBitsLibrary.Tests
     public class BitNumbersTests
     {
         [TestMethod]
-        public void ConvertNumberInBits_Convert13ToBitArray()
-        {
-            byte[] expected = new byte[]
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1};
-            int num = 13;
-            byte[] actual = BitNumbers.ConvertNumberInBits(num);
-            CollectionAssert.AreEqual(expected, actual);
-
-        }
-
-        [TestMethod]
-        public void ConvertFromBitsToInteger_ConvertABitrrayToNumber7()
-        {
-            byte[] actualNumberAsBits = new byte[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 };
-            int expectedValue = 7;
-
-            int actualValue = BitNumbers.ConvertFromBitsToInteger(actualNumberAsBits);
-
-            Assert.AreEqual(expectedValue, actualValue);
-        }
-
-        [TestMethod]
-        public void InsertNumbers()
+        public void InsertNumber_Insert15Into15WhenI0J0_15()
         {
             int numberSource = 15;
             int numberIn = 15;
             int i = 0;
             int j = 0;
             int expectedResult = 15;
+
+            int actualResult = BitNumbers.InsertNumber(numberSource, numberIn, i, j);
+
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [TestMethod]
+        public void InsertNumber_Insert15Into8WhenI0J0_9()
+        {
+            int numberSource = 8;
+            int numberIn = 15;
+            int i = 0;
+            int j = 0;
+            int expectedResult = 9;
+
+            int actualResult = BitNumbers.InsertNumber(numberSource, numberIn, i, j);
+
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [TestMethod]
+        public void InsertNumber_Insert15Into8WhenI3J8_120()
+        {
+            int numberSource = 8;
+            int numberIn = 15;
+            int i = 3;
+            int j = 8;
+            int expectedResult = 120;
 
             int actualResult = BitNumbers.InsertNumber(numberSource, numberIn, i, j);
 

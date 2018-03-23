@@ -1,0 +1,10 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\FindRootLibrary.NUnitTests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\FindRootLibrary.NUnitTests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\nunit.framework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\WorkWithBitsLibrary.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\WorkWithBitsLibrary.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\nunit.framework.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\bin\Debug\nunit.framework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\obj\Debug\FindRootLibrary.NUnitTests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\obj\Debug\FindRootLibrary.NUnitTests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.02\FindRootLibrary.NUnitTests\obj\Debug\FindRootLibrary.NUnitTests.pdb
