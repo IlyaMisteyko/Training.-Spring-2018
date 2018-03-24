@@ -60,6 +60,11 @@ namespace Converter
             this.DesiredHalfOfTheAlphabet = this.alphabet.Substring(0, this.Basis);
         }
 
+        public string Alphabet
+        {
+            get { return alphabet; }
+        }
+
         /// <summary>
         /// Gets basis.
         /// </summary>

@@ -30,11 +30,11 @@ namespace Converter.Tests
 
         //[TestCase("1AeF101", 2)]
         //[TestCase("SA123", 2)]
-        [TestCase("764241", 20)]
-        public void TestsOfArgumentException(string source, int basis)
-        {
-            Notation n = new Notation(basis);
-            Assert.Throws<System.ArgumentException>(() => source.ToDecimalConverter(n));
-        }
+        //[TestCase("764241", 20)]
+        //public void TestsOfArgumentException(string source, int basis)
+        //{
+        //    Notation n = new Notation(basis);
+        //    Assert.Throws<System.ArgumentException>(() => source.ToDecimalConverter(n));
+        //}
     }
 }
