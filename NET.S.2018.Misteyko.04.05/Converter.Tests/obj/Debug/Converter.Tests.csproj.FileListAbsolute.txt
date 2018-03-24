@@ -1,0 +1,10 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\Converter.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\Converter.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\Converter.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\nunit.framework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\Converter.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\nunit.framework.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\bin\Debug\nunit.framework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\obj\Debug\Converter.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\obj\Debug\Converter.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.04.05\Converter.Tests\obj\Debug\Converter.Tests.pdb
