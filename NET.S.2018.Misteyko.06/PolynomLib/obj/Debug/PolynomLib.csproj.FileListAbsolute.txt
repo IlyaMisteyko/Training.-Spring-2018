@@ -1,0 +1,4 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\PolynomLib\bin\Debug\PolynomLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\PolynomLib\bin\Debug\PolynomLib.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\PolynomLib\obj\Debug\PolynomLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\PolynomLib\obj\Debug\PolynomLib.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomLib", "PolynomLib\PolynomLib.csproj", "{F89F4A4E-0F23-4457-9313-698F1C67582D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrayLib", "JaggedArrayLib\JaggedArrayLib.csproj", "{C9E1479F-A05E-4CCB-B561-51B9E25C422D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrayLib.Tests", "JaggedArrayLib.Tests\JaggedArrayLib.Tests.csproj", "{D67300CC-4B06-4B04-BE7F-7D49AC6FBB51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F89F4A4E-0F23-4457-9313-698F1C67582D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89F4A4E-0F23-4457-9313-698F1C67582D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89F4A4E-0F23-4457-9313-698F1C67582D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89F4A4E-0F23-4457-9313-698F1C67582D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E1479F-A05E-4CCB-B561-51B9E25C422D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E1479F-A05E-4CCB-B561-51B9E25C422D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E1479F-A05E-4CCB-B561-51B9E25C422D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E1479F-A05E-4CCB-B561-51B9E25C422D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67300CC-4B06-4B04-BE7F-7D49AC6FBB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67300CC-4B06-4B04-BE7F-7D49AC6FBB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67300CC-4B06-4B04-BE7F-7D49AC6FBB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67300CC-4B06-4B04-BE7F-7D49AC6FBB51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

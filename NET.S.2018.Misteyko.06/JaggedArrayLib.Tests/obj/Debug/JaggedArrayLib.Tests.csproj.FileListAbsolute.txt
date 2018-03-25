@@ -1,0 +1,10 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\JaggedArrayLib.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\JaggedArrayLib.Tests.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\JaggedArrayLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\nunit.framework.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\JaggedArrayLib.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\nunit.framework.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\bin\Debug\nunit.framework.xml
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\obj\Debug\JaggedArrayLib.Tests.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\obj\Debug\JaggedArrayLib.Tests.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib.Tests\obj\Debug\JaggedArrayLib.Tests.pdb

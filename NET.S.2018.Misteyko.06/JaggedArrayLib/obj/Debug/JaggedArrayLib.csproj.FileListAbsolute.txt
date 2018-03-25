@@ -1,0 +1,5 @@
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib\bin\Debug\JaggedArrayLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib\bin\Debug\JaggedArrayLib.pdb
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib\obj\Debug\JaggedArrayLib.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib\obj\Debug\JaggedArrayLib.dll
+D:\EPAM\Tasks\NET.S.2018.Misteyko.06\JaggedArrayLib\obj\Debug\JaggedArrayLib.pdb
