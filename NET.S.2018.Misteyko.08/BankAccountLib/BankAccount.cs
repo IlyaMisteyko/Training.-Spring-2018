@@ -27,13 +27,24 @@ namespace BankAccountLib
         private enum State
         {
             Active = 1,
-            Closed = 2
+            NotActive = 2
         }
 
         /// <summary>
         /// Field for the account number
         /// </summary>
         private static int accountNumber = 0;
+
+        /// <summary>
+        /// Gets account number.
+        /// </summary>
+        public int AccountNumber
+        {
+            get
+            {
+                return accountNumber;
+            }
+        }
 
         /// <summary>
         /// Gets firstname.
@@ -104,7 +115,7 @@ namespace BankAccountLib
             Firstname = firstname;
             Lastname = lastname;
             Patronymic = patronymic;
-            state = State.Active;
+            state = State.NotActive;
             Balance = balance;
             Status = status;
             accountNumber++;
@@ -116,14 +127,14 @@ namespace BankAccountLib
         /// <param name="amount">Needed amount.</param>
         public void Replenishment(int amount)
         {
+            if (state == State.NotActive)
+            {
+                throw new ArgumentException("Your account is not activated!");
+            }
+
             if (amount < 0)
             {
                 throw new ArgumentException($"Wrong {nameof(amount)}!");
-            }
-
-            if (state == State.Closed)
-            {
-                throw new ArgumentException($"Your account closed!");
             }
 
             Balance += amount;
@@ -136,14 +147,14 @@ namespace BankAccountLib
         /// <param name="amount">Needed amount.</param>
         public void Withdraw(int amount)
         {
+            if (state == State.NotActive)
+            {
+                throw new ArgumentException("Your account is not activated!");
+            }
+
             if (amount < 0 || amount > Balance)
             {
                 throw new ArgumentException($"Wrong {nameof(amount)}!");
-            }
-
-            if (state == State.Closed)
-            {
-                throw new ArgumentException($"Your account closed!");
             }
 
             Balance -= amount;
@@ -183,11 +194,19 @@ namespace BankAccountLib
         }
 
         /// <summary>
-        /// Changes the state of the account.
+        /// Activates account.
         /// </summary>
-        public void ChangeState()
+        public void ActivateAccount()
         {
-            state = State.Closed;
+            state = State.Active;
+        }
+
+        /// <summary>
+        /// Closes account.
+        /// </summary>
+        public void CloseAccount()
+        {
+            state = State.NotActive;
         }
     }
 }
