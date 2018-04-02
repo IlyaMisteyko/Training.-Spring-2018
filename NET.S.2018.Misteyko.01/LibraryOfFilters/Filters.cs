@@ -7,6 +7,64 @@ using System.Threading.Tasks;
 namespace LibraryOfFilters
 {
     /// <summary>
+    /// Interface for filter
+    /// </summary>
+    public interface IFilter
+    {
+        /// <summary>
+        /// Search digit in number.
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns>Result of searching.</returns>
+        bool Contain(int item);
+    }
+
+    /// <summary>
+    /// Filter for digit
+    /// </summary>
+    public class FilterDigit : IFilter 
+    {
+        /// <summary>
+        /// Digit for searching.
+        /// </summary>
+        private readonly int digit;
+
+        /// <summary>
+        /// Ctor which initializes of field for digit.
+        /// </summary>
+        /// <param name="digit"></param>
+        public FilterDigit(int digit)
+        {
+            if (digit < 0 || digit > 9)
+            {
+                throw new ArgumentException();
+            }
+
+            this.digit= digit;
+        }
+
+        /// <summary>
+        /// Search digit in number.
+        /// </summary>
+        /// <param name="element"></param>
+        /// <returns>Result of searching.</returns>
+        public bool Contain(int element)
+        {
+            while (element != 0)
+            {
+                if (Math.Abs(element % 10) == this.digit)
+                {
+                    return true;
+                }
+
+                element /= 10;
+            }
+
+            return false;
+        }
+    }
+
+    /// <summary>
     /// Class of filters
     /// </summary>
     public class Filters
@@ -19,13 +77,8 @@ namespace LibraryOfFilters
         /// <returns>Filtered array</returns>
         /// <exception cref="System.ArgumentException"></exception>
         /// <exception cref="System.ArgumentNullException"></exception>
-        public static int[] FilterDigit(int[] mainArr, int digit)
+        public static int[] FilterDigit(int[] mainArr, IFilter digit)
         {
-            if (digit < 0 || digit > 9)
-            {
-                throw new ArgumentException();
-            }
-
             if (mainArr == null)
             {
                 throw new ArgumentNullException();
@@ -35,16 +88,9 @@ namespace LibraryOfFilters
 
             for (int i = 0; i < mainArr.Length; i++)
             {
-                int copyOfElement = mainArr[i];
-
-                while (copyOfElement != 0)
+                if (digit.Contain(mainArr[i]))
                 {
-                    if (Math.Abs(copyOfElement % 10) == digit)
-                    {
-                        finalArr.Add(mainArr[i]);
-                    }
-
-                    copyOfElement /= 10;
+                    finalArr.Add(mainArr[i]);
                 }
             }
 

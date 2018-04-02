@@ -1,185 +1,67 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace JaggedArrayLib
 {
     /// <summary>
+    /// Comparer interface.
+    /// </summary>
+    public interface IComparer
+    {
+        /// <summary>
+        /// Compares first first array with second.
+        /// </summary>
+        /// <param name="first">The first array.</param>
+        /// <param name="second">The second array.</param>
+        /// <returns> Result of comparing.</returns>
+        int Compare(int[] first, int[] second);
+    }
+
+    /// <summary>
     /// Class which work with jagged array.
     /// </summary>
     public class JaggedArray
     {
         /// <summary>
-        /// Sorting jagged array by the ascending sum of elements with bubble sort.
+        /// Sort of jagged array with bubble sort.
         /// </summary>
         /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByAscendingSumOfElements(int[][] jaggedArr)
+        /// <param name="compare">The compare.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// </exception>
+        public static void BubbleSort(int[][] jaggedArr, IComparer compare)
         {
             if (jaggedArr == null)
             {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
+                throw new ArgumentNullException($"{jaggedArr} is null!");
             }
 
-            for (int i = 0; i < jaggedArr.Length; i++)
+            if (compare == null)
             {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
+                throw new ArgumentNullException($"{compare} is null!");
+            }
+
+            bool flag = true;
+            int i = jaggedArr.Length - 1;
+
+            while (flag)
+            {
+                flag = false;
+                for (int j = 0; j < i; i++)
                 {
-                    if (SumOfElements(jaggedArr[j]) > SumOfElements(jaggedArr[j + 1]))
+                    if (compare.Compare(jaggedArr[j], jaggedArr[j + 1]) > 0)
                     {
                         Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
+                        flag = true;
                     }
                 }
+
+                i--;
             }
-        }
-
-        /// <summary>
-        /// Sorting jagged array by the descending sum of elements with bubble sort.
-        /// </summary>
-        /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByDescendingSumOfElements(int[][] jaggedArr)
-        {
-            if (jaggedArr == null)
-            {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
-            }
-
-            for (int i = 0; i < jaggedArr.Length; i++)
-            {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
-                {
-                    if (SumOfElements(jaggedArr[j]) < SumOfElements(jaggedArr[j + 1]))
-                    {
-                        Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// Sorting jagged array by the ascending max element with bubble sort.
-        /// </summary>
-        /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByAscendingMaxElement(int[][] jaggedArr)
-        {
-            if (jaggedArr == null)
-            {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
-            }
-
-            for (int i = 0; i < jaggedArr.Length; i++)
-            {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
-                {
-                    if (FindMaxValue(jaggedArr[j]) > FindMaxValue(jaggedArr[j + 1]))
-                    {
-                        Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// Sorting jagged array by the descending max element with bubble sort.
-        /// </summary>
-        /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByDescendingMaxElement(int[][] jaggedArr)
-        {
-            if (jaggedArr == null)
-            {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
-            }
-
-            for (int i = 0; i < jaggedArr.Length; i++)
-            {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
-                {
-                    if (FindMaxValue(jaggedArr[j]) < FindMaxValue(jaggedArr[j + 1]))
-                    {
-                        Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// Sorting jagged array by the ascending min element with bubble sort.
-        /// </summary>
-        /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByAscendingMinElement(int[][] jaggedArr)
-        {
-            if (jaggedArr == null)
-            {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
-            }
-
-            for (int i = 0; i < jaggedArr.Length; i++)
-            {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
-                {
-                    if (FindMinValue(jaggedArr[j]) < FindMinValue(jaggedArr[j + 1]))
-                    {
-                        Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// Sorting jagged array by the descending min element with bubble sort.
-        /// </summary>
-        /// <param name="jaggedArr">The jagged array.</param>
-        /// <exception cref="System.ArgumentNullException">jagged arr</exception>
-        public static void SortByDescendingMinElement(int[][] jaggedArr)
-        {
-            if (jaggedArr == null)
-            {
-                throw new ArgumentNullException($"Array {nameof(jaggedArr)} is null!");
-            }
-
-            for (int i = 0; i < jaggedArr.Length; i++)
-            {
-                for (int j = 0; j < jaggedArr.Length - i - 1; j++)
-                {
-                    if (FindMinValue(jaggedArr[j]) > FindMinValue(jaggedArr[j + 1]))
-                    {
-                        Swap(ref jaggedArr[j], ref jaggedArr[j + 1]);
-                    }
-                }
-            }
-        }
-
-        /// <summary>
-        /// Finds maximum element of array.
-        /// </summary>
-        /// <param name="arr">The array.</param>
-        /// <returns>Max element</returns>
-        private static int FindMaxValue(int[] arr)
-        {
-            if (arr == null)
-            {
-                return int.MaxValue;
-            }
-
-            int[] tempArr = arr;
-
-            int max = tempArr[0];
-
-            for (int i = 1; i < tempArr.Length; i++)
-            {
-                if (max < tempArr[i])
-                {
-                    max = tempArr[i];
-                }
-            }
-
-            return max;
         }
 
         /// <summary>

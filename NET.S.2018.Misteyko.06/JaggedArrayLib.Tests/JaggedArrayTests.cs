@@ -8,6 +8,144 @@ using System.Threading.Tasks;
 
 namespace JaggedArrayLib.Tests
 {
+    public class SortByAscendingSumOfElements : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return 1;
+            }
+
+            if (second == null)
+            {
+                return -1;
+            }
+
+            return first.Sum() - second.Sum();
+        }
+    }
+
+    public class SortByDescendingSumOfElements : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return -1;
+            }
+
+            if (second == null)
+            {
+                return 1;
+            }
+
+            return second.Sum() - first.Sum();
+        }
+    }
+
+    public class SortByAscendingMaxElement : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return 1;
+            }
+
+            if (second == null)
+            {
+                return -1;
+            }
+
+            return first.Max() - second.Max();
+        }
+    }
+
+    public class SortByDescendingMaxElement : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return -1;
+            }
+
+            if (second == null)
+            {
+                return 1;
+            }
+
+            return second.Max() - first.Max();
+        }
+    }
+
+    public class SortByAscendingMinElement : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return 1;
+            }
+
+            if (second == null)
+            {
+                return -1;
+            }
+
+            return first.Min() - second.Min();
+        }
+    }
+
+    public class SortByDescendingMinElement : IComparer
+    {
+        public int Compare(int[] first, int[] second)
+        {
+            if (first == null && second == null)
+            {
+                return 0;
+            }
+
+            if (first == null)
+            {
+                return -1;
+            }
+
+            if (second == null)
+            {
+                return 1;
+            }
+
+            return second.Min() - first.Min();
+        }
+    }
+
     [TestFixture()]
     public class JaggedArrayTests
     {
@@ -26,7 +164,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr4;
             expected[3] = arr3;
 
-            JaggedArray.SortByAscendingSumOfElements(actual);
+            JaggedArray.BubbleSort(actual, new SortByAscendingSumOfElements());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -46,7 +184,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr2;
             expected[3] = arr1;
 
-            JaggedArray.SortByDescendingSumOfElements(actual);
+            JaggedArray.BubbleSort(actual, new SortByDescendingSumOfElements());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -66,7 +204,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr3;
             expected[3] = arr2;
 
-            JaggedArray.SortByAscendingMaxElement(actual);
+            JaggedArray.BubbleSort(actual, new SortByAscendingMaxElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -86,7 +224,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr1;
             expected[3] = arr4;
 
-            JaggedArray.SortByDescendingMaxElement(actual);
+            JaggedArray.BubbleSort(actual, new SortByDescendingMaxElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -106,7 +244,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr4;
             expected[3] = arr3;
 
-            JaggedArray.SortByAscendingMinElement(actual);
+            JaggedArray.BubbleSort(actual, new SortByAscendingMinElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -126,7 +264,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr1;
             expected[3] = arr2;
 
-            JaggedArray.SortByDescendingMinElement(actual);
+            JaggedArray.BubbleSort(actual, new SortByDescendingMinElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
