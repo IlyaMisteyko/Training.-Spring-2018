@@ -41,12 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookService.cs" />
+    <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookLib\BookLib.csproj">
       <Project>{2e93fb60-efbc-4e4b-bafd-aeb41b8cf5fa}</Project>
       <Name>BookLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookListStorage\BookListStorage.csproj">
+      <Project>{9a03edc9-6024-42ae-95fc-eae53bb5535f}</Project>
+      <Name>BookListStorage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

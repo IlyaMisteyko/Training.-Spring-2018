@@ -4,30 +4,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BookLib;
+using BookListStorage;
 
 namespace BookListService
 {
-    public class BookService
+    public class BookService : IService
     {
+        private IStorable storage;
 
-        private List<Book> listOfBooks = new List<Book>();
+        public BookService(IStorable storage)
+        {
+            if (storage == null)
+            {
+                throw new ArgumentNullException("");
+            }
+
+            this.storage = storage;
+        }
 
         public void AddBook(Book book)
         {
-            throw new NotImplementedException();
+            storage.WriteBook(book);
         }
 
         public void RemoveBook(Book book)
         {
-            throw new NotImplementedException();
+            List<Book> listOfBooks = storage.ReadAllBooks();
+            listOfBooks.Remove(book);
+            storage.WriteAllBooks(listOfBooks);
         }
 
-        public Book FindBookByTag()
+        public Book FindBookByTag()  //add argument
         {
             throw new NotImplementedException();
         }
 
-        public void SortBookByTag()
+        public void SortBookByTag()  //add argument
         {
             throw new NotImplementedException();
         }
