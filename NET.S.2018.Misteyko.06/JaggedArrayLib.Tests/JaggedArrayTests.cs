@@ -164,7 +164,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr4;
             expected[3] = arr3;
 
-            JaggedArray.BubbleSort(actual, new SortByAscendingSumOfElements());
+            JaggedArray.SortWithInterface(actual, new SortByAscendingSumOfElements());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -184,7 +184,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr2;
             expected[3] = arr1;
 
-            JaggedArray.BubbleSort(actual, new SortByDescendingSumOfElements());
+            JaggedArray.SortWithInterface(actual, new SortByDescendingSumOfElements());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -204,7 +204,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr3;
             expected[3] = arr2;
 
-            JaggedArray.BubbleSort(actual, new SortByAscendingMaxElement());
+            JaggedArray.SortWithInterface(actual, new SortByAscendingMaxElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -224,7 +224,7 @@ namespace JaggedArrayLib.Tests
             expected[2] = arr1;
             expected[3] = arr4;
 
-            JaggedArray.BubbleSort(actual, new SortByDescendingMaxElement());
+            JaggedArray.SortWithInterface(actual, new SortByDescendingMaxElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -239,12 +239,12 @@ namespace JaggedArrayLib.Tests
             actual[3] = arr4;
 
             int[][] expected = new int[4][];
-            expected[0] = arr2;
-            expected[1] = arr1;
-            expected[2] = arr4;
-            expected[3] = arr3;
+            expected[0] = arr3;
+            expected[1] = arr4;
+            expected[2] = arr1;
+            expected[3] = arr2;
 
-            JaggedArray.BubbleSort(actual, new SortByAscendingMinElement());
+            JaggedArray.SortWithInterface(actual, new SortByAscendingMinElement());
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -259,12 +259,36 @@ namespace JaggedArrayLib.Tests
             actual[3] = arr4;
 
             int[][] expected = new int[4][];
+            expected[0] = arr2;
+            expected[1] = arr1;
+            expected[2] = arr4;
+            expected[3] = arr3;
+
+            JaggedArray.SortWithInterface(actual, new SortByDescendingMinElement());
+
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestCase(new int[] { -1, -16, 0, 2 }, null, new int[] { 70, 0, -100, 0 }, new int[] { -70, 4 })]
+        public void SortByAscendingMinElementWithDelegateTest(int[] arr1, int[] arr2, int[] arr3, int[] arr4)
+        {
+            int[][] actual = new int[4][];
+            actual[0] = arr1;
+            actual[1] = arr2;
+            actual[2] = arr3;
+            actual[3] = arr4;
+
+            int[][] expected = new int[4][];
             expected[0] = arr3;
             expected[1] = arr4;
             expected[2] = arr1;
             expected[3] = arr2;
 
-            JaggedArray.BubbleSort(actual, new SortByDescendingMinElement());
+            SortByAscendingMinElement ob = new SortByAscendingMinElement();
+
+            Delegate del = ob.Compare;
+
+            JaggedArray.SortWithDelegate(actual, del);
 
             CollectionAssert.AreEqual(expected, actual);
         }

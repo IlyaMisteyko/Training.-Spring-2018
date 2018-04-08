@@ -22,18 +22,26 @@ namespace JaggedArrayLib
     }
 
     /// <summary>
+    /// Delegate for comparing.
+    /// </summary>
+    /// <param name="first">First array.</param>
+    /// <param name="last">Last array.</param>
+    /// <returns></returns>
+    public delegate int Delegate(int[] first, int[] last);
+
+    /// <summary>
     /// Class which work with jagged array.
     /// </summary>
     public class JaggedArray
     {
         /// <summary>
-        /// Sort of jagged array with bubble sort.
+        /// Sorts with the interface.
         /// </summary>
         /// <param name="jaggedArr">The jagged array.</param>
-        /// <param name="compare">The compare.</param>
+        /// <param name="compare">The comparer.</param>
         /// <exception cref="System.ArgumentNullException">
         /// </exception>
-        public static void BubbleSort(int[][] jaggedArr, IComparer compare)
+        public static void SortWithInterface(int[][] jaggedArr, IComparer compare)
         {
             if (jaggedArr == null)
             {
@@ -45,13 +53,47 @@ namespace JaggedArrayLib
                 throw new ArgumentNullException($"{compare} is null!");
             }
 
+            BubbleSort(jaggedArr, compare);
+        }
+
+        /// <summary>
+        /// Sorts with the delegate.
+        /// </summary>
+        /// <param name="jaggedArr">The jagged array.</param>
+        /// <param name="del">The delegate.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// </exception>
+        public static void SortWithDelegate(int[][] jaggedArr, Delegate del)
+        {
+            if (jaggedArr == null)
+            {
+                throw new ArgumentNullException($"{jaggedArr} is null!");
+            }
+
+            if (del == null)
+            {
+                throw new ArgumentNullException($"{del} is null!");
+            }
+
+            BubbleSort(jaggedArr, Converter.NewDelegate(del));
+        }
+
+        /// <summary>
+        /// Sort of jagged array with bubble sort.
+        /// </summary>
+        /// <param name="jaggedArr">The jagged array.</param>
+        /// <param name="compare">The compare.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// </exception>
+        private static void BubbleSort(int[][] jaggedArr, IComparer compare)
+        {
             bool flag = true;
             int i = jaggedArr.Length - 1;
 
             while (flag)
             {
                 flag = false;
-                for (int j = 0; j < i; i++)
+                for (int j = 0; j < i; j++)
                 {
                     if (compare.Compare(jaggedArr[j], jaggedArr[j + 1]) > 0)
                     {
@@ -62,54 +104,6 @@ namespace JaggedArrayLib
 
                 i--;
             }
-        }
-
-        /// <summary>
-        /// Finds minimum element of array.
-        /// </summary>
-        /// <param name="arr">The array.</param>
-        /// <returns>Min element</returns>
-        private static int FindMinValue(int[] arr)
-        {
-            if (arr == null)
-            {
-                return int.MaxValue;
-            }
-
-            int[] tempArr = arr;
-            int min = tempArr[0];
-
-            for (int i = 1; i < tempArr.Length; i++)
-            {
-                if (min > tempArr[i])
-                {
-                    min = tempArr[i];
-                }
-            }
-
-            return min;
-        }
-
-        /// <summary>
-        /// Sum of elements of array.
-        /// </summary>
-        /// <param name="arr">The array.</param>
-        /// <returns>Sum of array.</returns>
-        private static int SumOfElements(int[] arr)
-        {
-            if (arr == null)
-            {
-                return int.MaxValue;
-            }
-
-            int sum = arr[0];
-
-            for (int i = 1; i < arr.Length; i++)
-            {
-                sum += arr[i];
-            }
-
-            return sum;
         }
 
         /// <summary>
