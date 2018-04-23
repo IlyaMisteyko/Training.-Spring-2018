@@ -1,0 +1,13 @@
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\bin\Debug\Task1.Console.exe.config
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\bin\Debug\Task1.Console.exe
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\bin\Debug\Task1.Console.pdb
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\bin\Debug\Task1.Solution.dll
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\bin\Debug\Task1.Solution.pdb
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.csprojResolveAssemblyReference.cache
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.csproj.CoreCompileInputs.cache
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.csproj.CopyComplete
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.exe
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.pdb
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.exe
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Console\obj\Debug\Task1.Console.pdb

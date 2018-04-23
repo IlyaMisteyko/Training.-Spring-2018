@@ -1,0 +1,23 @@
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\bin\Debug\Task1.Solution.dll
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\bin\Debug\Task1.Solution.pdb
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\obj\Debug\Task1.Solution.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\obj\Debug\Task1.Solution.csproj.CoreCompileInputs.cache
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\obj\Debug\Task1.Solution.dll
+C:\Users\MIB\Desktop\20.11.2017\Task1.Solution\obj\Debug\Task1.Solution.pdb
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\bin\Debug\Task1.Solution.dll
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\bin\Debug\Task1.Solution.pdb
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\obj\Debug\Task1.Solution.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\obj\Debug\Task1.Solution.csproj.CoreCompileInputs.cache
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\obj\Debug\Task1.Solution.dll
+C:\Users\MIB\Desktop\23.11.2017\Task1.Solution\obj\Debug\Task1.Solution.pdb
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\bin\Debug\Task1.Solution.dll
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\bin\Debug\Task1.Solution.pdb
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.csprojResolveAssemblyReference.cache
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.csproj.CoreCompileInputs.cache
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.dll
+I:\Training EPAM\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.pdb
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\bin\Debug\Task1.Solution.dll
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\bin\Debug\Task1.Solution.pdb
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.csprojResolveAssemblyReference.cache
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.dll
+D:\EPAM\Tasks\Day 18. Test\NET.W.2017.LastName.Test\NET.W.2017.LastName.Test\Task1.Solution\obj\Debug\Task1.Solution.pdb
