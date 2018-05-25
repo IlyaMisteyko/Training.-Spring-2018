@@ -234,6 +234,7 @@ namespace Labyrinth
                 return false;
             }
 
+            previousStepI = i;
             i++; 
 
             return true;
@@ -246,6 +247,7 @@ namespace Labyrinth
                 return false;
             }
 
+            previousStepJ = j;
             j++;
 
             return true;
@@ -258,6 +260,7 @@ namespace Labyrinth
                 return false;
             }
 
+            previousStepJ = j;
             j--;
 
             return true;
